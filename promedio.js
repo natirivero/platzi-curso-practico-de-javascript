@@ -17,4 +17,4 @@ function calcularMediaAritmetica(lista) {
   return promedioLista;
 }
 
-console.log(calcularMediaAritmetica([1, 14, 151, 98]));
+// console.log(calcularMediaAritmetica([1, 14, 151, 98]));

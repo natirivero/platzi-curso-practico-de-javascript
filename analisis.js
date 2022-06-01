@@ -45,7 +45,6 @@ const salariosPaisSorted = salariosPais.sort((salaryA, salaryB) => {
 const medianaGeneralPais = medianaSalarios(salariosPaisSorted);
 
 // Mediana del Top 10%
-
 const spliceStart = (salariosPaisSorted.length * 90) / 100;
 const spliceCount = salariosPaisSorted.length - spliceStart;
 const salariosPaisTop10 = salariosPaisSorted.splice(spliceStart, spliceCount);

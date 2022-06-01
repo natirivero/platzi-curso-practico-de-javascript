@@ -1,5 +1,3 @@
-// const lista = [1, 2, 3, 1, 2, 3, 4, 2, 2, 2, 1];
-
 function calcularModa(lista) {
   const listaCount = {};
 
@@ -26,4 +24,4 @@ function calcularModa(lista) {
   return moda;
 }
 
-console.log(calcularModa([1, 2, 3, 1, 2, 3, 4, 2, 2, 2, 1]));
+// console.log(calcularModa([1, 2, 3, 1, 2, 3, 4, 2, 2, 2, 1]));

@@ -44,4 +44,4 @@ function calcularMediana(ulist) {
   }
 }
 
-console.log(calcularMediana([750, 900, 100, 200, 500, 40000000]));
+// console.log(calcularMediana([750, 900, 100, 200, 500, 40000000]));
