@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figuras Geométricas | Curso Práctico de JavaScript en Platzi</title>
+  </head>
+  <body>
+    <header>
+      <h1>Figuras geométricas</h1>
+      <p>Este es el primer taller del curso práctico de JavaScript</p>
+    </header>
+
+    <section id="cuadrado">
+      <h2>Calcula el área y perímetro de un Cuadrado</h2>
+      <form action="">
+        <label for="inputCuadrado"
+          >Escribe cuánto mide cada lado de tu cuadrado</label
+        >
+        <input id="inputCuadrado" type="number" />
+        <button type="button" onclick="calcularPerimetroCuadrado()">
+          Calcular el perímetro
+        </button>
+        <button type="button" onclick="calcularAreaCuadrado()">
+          Calcular el área
+        </button>
+      </form>
+    </section>
+
+    <section id="triangulo">
+      <h2>Calcula el área y perímetro de un Triángulo</h2>
+      <form action="">
+        <label for="lado1Triangulo"
+          >Escribe cuánto mide el <b>lado "a"</b> de tu Triángulo</label
+        >
+        <input id="lado1Triangulo" type="number" /><br />
+        <label for="lado2Triangulo"
+          >Escribe cuánto mide el <b>lado "b"</b> de tu Triángulo</label
+        >
+        <input id="lado2Triangulo" type="number" /><br />
+        <label for="baseTriangulo"
+          >Escribe cuánto mide la <b>base</b> de tu Triángulo</label
+        >
+        <input id="baseTriangulo" type="number" /><br />
+        <label for="alturaTriangulo"
+          >Escribe cuál es la <b>altura</b> de tu Triángulo</label
+        >
+        <input id="alturaTriangulo" type="number" /><br />
+        <button type="button" onclick="calcularPerimetroTriangulo()">
+          Calcular el perímetro
+        </button>
+        <button type="button" onclick="calcularAreaTriangulo()">
+          Calcular el área
+        </button>
+      </form>
+    </section>
+
+    <section id="circulo">
+      <h2>Calcula el diámetro, perímetro y área de un Círculo</h2>
+      <form action="">
+        <label for="inputCirculo"
+          >Escribe cuánto mide cada lado de tu Circulo</label
+        >
+        <input id="inputCirculo" type="number" />
+        <button type="button" onclick="calcularDiametroCirculo()">
+          Calcular el diámetro
+        </button>
+        <button type="button" onclick="calcularPerimetroCirculo()">
+          Calcular el perímetro
+        </button>
+        <button type="button" onclick="calcularAreaCirculo()">
+          Calcular el área
+        </button>
+      </form>
+    </section>
+
+    <section id="altura_triangulo_isoceles">
+      <h2>Calcula la altura de un triángulo isóceles</h2>
+      <form action="">
+        <label for="catetoA_Isoceles"
+          >Escribe cuánto mide el cateto o lado "a" de tu triángulo
+          isóceles</label
+        >
+        <input id="catetoA_Isoceles" type="number" /><br />
+
+        <label for="catetoB_Isoceles"
+          >Escribe cuánto mide el cateto o lado "b" de tu triángulo
+          isóceles</label
+        >
+        <input id="catetoB_Isoceles" type="number" /><br />
+
+        <label for="baseIsoceles"
+          >Escribe cuánto mide la base de tu triángulo Isoceles</label
+        >
+        <input id="baseIsoceles" type="number" /><br />
+
+        <button type="button" onclick="calcHeight()">Calcular altura</button>
+      </form>
+    </section>
+
+    <section id="hipotenusa_triangulo_rectangulo">
+      <h2>Calcula la hipotenusa de un triángulo rectángulo</h2>
+      <form action="">
+        <label for="catetoA_Rectangulo"
+          >Escribe cuánto mide el cateto o lado "a" de tu triángulo
+          rectángulo</label
+        >
+        <input id="catetoA_Rectangulo" type="number" /><br />
+
+        <label for="catetoB_Rectangulo"
+          >Escribe cuánto mide el cateto o lado "b" de tu triángulo
+          rectángulo</label
+        >
+        <input id="catetoB_Rectangulo" type="number" /><br />
+
+        <button type="button" onclick="calcHypotenuse()">
+          Calcular la hipotenusa
+        </button>
+      </form>
+    </section>
+
+    <script src="./figuras.js"></script>
+  </body>
+</html>
